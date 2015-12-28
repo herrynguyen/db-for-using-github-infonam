@@ -17,6 +17,7 @@ public class ClientCode {
 
     public static void main(String args[]) {
         try {
+//edit code
             Socket s = new Socket("localhost", 3000);
             /*Send data from client to server*/
             OutputStream outStream = s.getOutputStream();
